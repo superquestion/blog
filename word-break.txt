@@ -1,0 +1,15 @@
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
+
+word-wrap: normal 允许内容撑开容器
+          :break-word ---超出容器会换行，是内容内换行，而不是词内换行
+          
+word-break: normal 自动换行，中文字换行，英文是整个单词换行
+break-all  强行截断英文
+keep-all 强制不换行
+
+white-space: normal 忽略空白
+pre 保留空白
+nowrap 文本不会换行，直到碰到换行标签
