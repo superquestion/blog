@@ -30,3 +30,36 @@ fs.mkdirSync   同步创建目录
 
 fs.statSync(path) 返回文件的状态 
 fs.statSync(dirpath).isDirectory()
+
+
+var path = require('path');
+var fs = require('fs');
+var mkdirsSync = function(dirpath, mode) {
+    // console.log(dirpath);
+    dirpath = path.resolve(dirpath);
+    // console.log(dirpath);
+    if(fs.existsSync(dirpath)){
+        return;
+    }
+    var dirs = dirpath.split(path.sep);
+    // console.log(dirs);
+    var dir = '';
+    for(var i = 0; i < dirs.length; i++) {
+        dir += path.join(dirs[i],path.sep);
+        // console.log(dir);
+        if(!fs.existsSync(dir)){
+            fs.mkdirSync(dir, mode);
+        }
+    }
+};
+var writeFileSync = function(filenName, content, overwrite){
+    mkdirsSync(path.dirname(filenName));
+    if(fs.existsSync(filenName)){
+        if(!overwrite){
+            throw 'File ' + filenName + ' is exists.';
+        }else{
+            fs.unlinkSync(filenName);
+        }
+    }
+    fs.writeFileSync(filenName, content);
+}
