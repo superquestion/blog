@@ -31,7 +31,7 @@ fs.mkdirSync   同步创建目录
 fs.statSync(path) 返回文件的状态 
 fs.statSync(dirpath).isDirectory()
 
-
+<pre>
 var path = require('path');
 var fs = require('fs');
 var mkdirsSync = function(dirpath, mode) {
@@ -63,3 +63,4 @@ var writeFileSync = function(filenName, content, overwrite){
     }
     fs.writeFileSync(filenName, content);
 }
+</pre>
