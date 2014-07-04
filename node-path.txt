@@ -1,0 +1,32 @@
+
+path.dirname  获得文件的路径
+
+path.dirname('../build/website/lucky/lucky.manifest')
+
+../build/website/lucky 
+
+path.basename(p, [ext]) 获得文件的名字
+
+path.basename('../build/website/lucky/lucky.manifest','.manifest')
+
+lucky
+
+path.extname(p) 返回扩展名
+
+
+path.sep() 返回分隔符
+
+path.join([path1], [path2], [...])  拼接路径
+
+path.resolve(dirpath);  返回绝对路径
+
+
+fs.existsSync(path) 同步函数 判断路径是否存在
+
+fs.unlinkSync   同步删除目录
+
+fs.mkdirSync   同步创建目录
+
+
+fs.statSync(path) 返回文件的状态 
+fs.statSync(dirpath).isDirectory()
