@@ -11,7 +11,7 @@ var params = {
     };
 
 
-    var startDrag = function(target){
+    var mDrag = function(target){
         if(getCss(target, "left") !== "auto"){
             params.left = getCss(target, "left");
         }
