@@ -1,7 +1,6 @@
 blog
 ====
 
-好记忆....
 
 1.<a href="https://github.com/superquestion/blog/blob/master/word-break.txt">word-break,word-wrap,word-space</a>
 
@@ -14,3 +13,10 @@ blog
 5.<a href="https://github.com/superquestion/blog/issues/4">webstorm如何快速安装模块依赖</a>
 
 6.<a href="https://github.com/superquestion/blog/issues/5">nodejs gm模块对图片的操作</a>
+
+7.<a href="https://github.com/superquestion/studyNotes/issues/3">webstorm scss wacth 配置</a>
+
+8.<a href="https://github.com/superquestion/studyNotes/issues/2">jshint 常用配置项翻译</a>
+
+9.<a href="https://github.com/superquestion/studyNotes/issues/1">grunt-rev & grunt-usemin</a>
+
