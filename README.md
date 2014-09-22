@@ -20,6 +20,6 @@ blog
 
 9.<a href="https://github.com/superquestion/studyNotes/issues/1">grunt-rev & grunt-usemin</a>
 
-10. <a href="https://github.com/superquestion/blog/issues/6">nodejs && fis 生成mainfest</a>
+10.<a href="https://github.com/superquestion/blog/issues/6">nodejs && fis 生成mainfest</a>
 
 
