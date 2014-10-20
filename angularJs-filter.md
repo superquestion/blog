@@ -46,4 +46,21 @@
     });
     
     ```
+    
+    -----------------------------------------------------------
+    ###Angular常用指令
+    
+| 属性  | 描述 |
+| ------------- | ------------- |
+| ng-init  |  初始化  ng-init="someProperty=true"|
+| ng-readonly   | 表单元素只读 true, false |
+| ng-checked  |  checkBox radio是否选中 true, false |
+| ng-selected   | selected的option是否是选中 true,false   |
+| ng-href  | angluar使用ng-href代替href|
+| ng-src  | angluar使用ng-src代替src  |
+| ng-src  | angluar使用ng-src代替src  |
+| ng-src  | angluar使用ng-src代替src  |
+| ng-src  | angluar使用ng-src代替src  |
+| ng-src  | angluar使用ng-src代替src  |
+| ng-src  | angluar使用ng-src代替src  |
   
